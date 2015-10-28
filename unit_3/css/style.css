@@ -1,4 +1,45 @@
 body {
+	text-align: center;
 	background-color: black;
+    font-size: 10em;
+	font-style: Helvetica;
+	color: #fff;
+	background: url("file:///Users/elvirakrupnik/Desktop/2015/drawing%20portfolio/plant1.png");
+}
+
+h1, p {
+    text-align: center;
 	color: white;
+	font-size: 22px;
+}
+
+#slogan {
+    color: yellow;
+}
+
+img {
+
+}
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 100px;
+}
+
+p {
+	text-decoration: italic;
+}
+
+ul {
+	display:block;
+	list-style-type: disc;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 80px;
 }
