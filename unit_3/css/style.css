@@ -2,28 +2,39 @@ body {
 	text-align: center;
 	background-color: black;
     font-size: 5em;
-	font-style: Helvetica;
+	font-family: 'Quicksand', sans-serif;
 	color: #black;
 	background: url("../images/plant1.png");
 }
 
 h1 {
     color: black;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 80px;
+    font-color: black;
 }
 
  p {
     text-align: center;
-	color: black;
+	color: blue;
 	font-size: 22px;
 }
 
 #slogan {
-    color: yellow;
+    color: blue;
+    font-size: 40px;
 }
 
 img {
-
 }
+
+li {
+    font-size: 20px;
+}
+
 hr { 
     display: block;
     margin-top: 0.5em;
