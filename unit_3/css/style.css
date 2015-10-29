@@ -9,23 +9,23 @@ body {
 
 h1 {
     color: black;
-    font-size: 40px;
+    font-size: 28px;
 }
 
 h2 {
-    font-size: 80px;
+    font-size: 26px;
     font-color: black;
 }
 
  p {
     text-align: center;
 	color: blue;
-	font-size: 22px;
+	font-size: 14px;
 }
 
 #slogan {
     color: blue;
-    font-size: 40px;
+    font-size: 24px;
 }
 
 img {
@@ -42,7 +42,7 @@ hr {
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 10px;
+    border-width: 5px;
 }
 
 p {
@@ -56,5 +56,5 @@ ul {
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 80px;
+    padding-left: 20px;
 }
