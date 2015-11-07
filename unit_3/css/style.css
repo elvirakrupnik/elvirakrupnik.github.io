@@ -1,10 +1,10 @@
 body {
-	text-align: center;
-	background-color: black;
-    font-size: 5em;
-	font-family: 'Quicksand', sans-serif;
-	color: #black;
-	background: url("../images/plant1.png");
+    text-align: center;
+    background-color: black;
+    font-size: 1em;
+    font-family: 'comfortaa', cursive;
+    color: #black;
+    background: url("../images/plant1.png");
 }
 
 h1 {
@@ -19,8 +19,8 @@ h2 {
 
  p {
     text-align: center;
-	color: blue;
-	font-size: 14px;
+    color: blue;
+    font-size: 14px;
 }
 
 #slogan {
@@ -31,14 +31,8 @@ h2 {
 img {
 }
 
-li {
-    font-size: 20px;
-}
-
 hr { 
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
@@ -46,15 +40,20 @@ hr {
 }
 
 p {
-	text-decoration: italic;
+    text-decoration: italic;
 }
 
 ul {
-	display:block;
-	list-style-type: disc;
+    display:inline;
+    list-style-type: disc;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
     padding-left: 20px;
+}
+
+li {
+    font-size: 20px;
+    display: inline;
 }
