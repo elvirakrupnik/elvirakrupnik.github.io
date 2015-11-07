@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: black;
-    font-size: 1em;
+    font-size: 5em;
     font-family: 'comfortaa', cursive;
     color: #black;
     background: url("../images/plant1.png");
@@ -33,6 +33,8 @@ img {
 
 hr { 
     display: block;
+    margin-top: .5em;
+    margin-bottom: .5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;

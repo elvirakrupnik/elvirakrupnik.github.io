@@ -1,48 +1,61 @@
 body {
-	text-align: center;
-	background-color: black;
-    font-size: 10em;
-	font-style: Helvetica;
-	color: #fff;
-	background: url("../images/plant1.png");
+    text-align: center;
+    background-color: black;
+    font-size: 5em;
+    font-family: 'comfortaa', cursive;
+    color: #black;
+    background: url("../images/plant1.png");
 }
 
-h1, p {
-    border-style: dotted;
+h1 {
+    color: black;
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 26px;
+    font-color: black;
+}
+
+ p {
     text-align: center;
-	color: white;
-	font-size: 22px;
+    color: blue;
+    font-size: 14px;
 }
 
 #slogan {
-    color: yellow;
+    color: blue;
+    font-size: 24px;
 }
 
 img {
-
 }
-hr {
-	hr { 
+
+hr { 
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: .5em;
+    margin-bottom: .5em;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 100px;
-}
+    border-width: 5px;
 }
 
 p {
-	text-decoration: italic;
+    text-decoration: italic;
 }
 
 ul {
-	display:block;
-	list-style-type: disc;
+    display:inline;
+    list-style-type: disc;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 80px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 20px;
+    display: inline;
 }
