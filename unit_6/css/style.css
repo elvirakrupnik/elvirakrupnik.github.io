@@ -2,9 +2,9 @@ body {
     text-align: center;
     background-color: black;
     font-size: 5em;
-    font-family: 'comfortaa', cursive;
+    font-family: 'comfortaa', serif;
     color: #black;
-    background: url("../images/drawing.svg");
+    background: url("../images/drawing.png");
 }
 
 h1 {
