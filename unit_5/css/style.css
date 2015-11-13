@@ -9,17 +9,30 @@ body {
 
 div {
  width: 280px;
- padding: 10px;
+ padding: 5px;
  margin: 10px;
- float: left;
- display: inline;
- }
+ display:inline-block;
+ background-color: grey;
+}
 
-a:hover { background-color: yellow; }
+div:hover {
+    opacity: .6;
+}
+
+a:hover { background-color: yellow;
+opacity: .6; }
+
+img:hover {
+    opacity: .9;
+}
 
 h1 {
     color: Cyan;
     font-size: 28px;
+}
+
+#contact {
+    background-color: grey;
 }
 
 h2 {
@@ -49,26 +62,26 @@ hr {
     border-width: 1px;
 }
 
-p {
-    text-decoration: italic;
-}
-
 ul {
-    display:block;
-    list-style-type: disc;
+    display:inline;
     margin-top: 1em;
     margin-bottom: 1em;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 20px;
+    padding-left: 10px;
 
 }
 
 li {
     font-size: 20px;
-    display: block;
+    display: inline;
 }
 
 footer {
-    
+    display:inline;
+    margin: 1px;
+    border: 1px;
+    padding: 1px;
+    float: left;
+    clear: both;
 }
