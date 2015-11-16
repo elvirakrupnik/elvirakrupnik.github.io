@@ -4,7 +4,7 @@ body {
     font-size: 5em;
     font-family: 'comfortaa', serif;
     color: #black;
-    background: url("../images/drawing.png");
+    background: url("../images/drawing1_grey.png");
 }
 
 div {
@@ -12,7 +12,6 @@ div {
  padding: 5px;
  margin: 10px;
  display:inline-block;
- background-color: grey;
 }
 
 div:hover {
@@ -31,13 +30,17 @@ h1 {
     font-size: 28px;
 }
 
-#contact {
-    background-color: grey;
-}
-
 h2 {
     font-size: 26px;
     color: Orange;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+aside { 
+    display: block;
 }
 
  p {
