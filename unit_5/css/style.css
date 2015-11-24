@@ -1,7 +1,7 @@
 body {
     text-align: center;
     background-color: black;
-    font-size: 5em;
+    font-size: 40px;
     font-family: 'comfortaa', serif;
     color: #black;
     background: url("../images/drawing1_grey.png");
@@ -23,6 +23,29 @@ img:hover {
     opacity: .3;
 }
 
+#header {
+    font-size: 26px;
+}
+
+#paragraph {
+    font-size: 26px;
+}
+
+#em-unit {
+    background-color:#ff6a5e;
+    /*width: 10em;*/
+    width: 20%;
+    height: 100px;
+}
+
+#pixel-unit {
+    background-color: #c05eff;
+    /*width: 200px;*/
+    width: 20%;
+    height: 100px;
+
+}
+
 header {
     float: center;
 }
@@ -41,9 +64,13 @@ h3 {
 }
 
  p {
+    vertical-align: center;
     text-align: center;
     color: yellow;
     font-size: 14px;
+    margin: 2em;
+    padding: 1em;
+    border: 1em;
 }
 
 #slogan {
@@ -80,3 +107,7 @@ footer {
     display:block;
     float: center;
 }
+
+@media only screen and (min-wdth: 768px)
+@media only screen and (max-width: 768px)
+@media only screen and (min-width: 320px) and (max-width: 480px)
