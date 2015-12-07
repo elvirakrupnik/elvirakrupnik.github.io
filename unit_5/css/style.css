@@ -9,7 +9,7 @@ body {
 
 div {
  width: 280px;
- display:inline-block;
+ display:block;
 }
 
 a:hover { background-color: yellow;
@@ -25,21 +25,24 @@ div {
 
 #section {
     font-size: 3em;
-    display: inline;
+    display: block;
 }
 
 #em-unit {
+    float: center;
     background-color:#ff6a5e;
+    text-align: center;
     /*width: 10em;*/
-    width: 15%;
-    height: 150px;
+    width: 100%;
+    height: 70px;
 }
 
 #pixel-unit {
     background-color: #c05eff;
+    float: center;
     /*width: 200px;*/
-    width: 15%;
-    height: 150px;
+    width: 100%;
+    height: 50px;
 
 }
 
@@ -96,12 +99,12 @@ li {
 
 #about {
 float:center;
-display: inline;
+display: block;
 text-decoration: bold;
 }
 
 #gallery {
-    display: inline;
+    display: block;
 }
 
 footer {
@@ -112,13 +115,8 @@ footer {
 
 @media only screen and (max-width: 800px) {
   div {
-    float: center;
-  }
+    float: center;  }
   div {
     margin: 0 1em 1em 0;
   }
 }
-
-@media only screen and (min-wdth: 768px)
-@media only screen and (max-width: 768px)
-@media only screen and (min-width: 320px) and (max-width: 480px)
