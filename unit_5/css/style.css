@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: Left;
     background-color: black;
     font-size: 25px;
     font-family: 'comfortaa', serif;
@@ -9,7 +9,7 @@ body {
 
 div {
  width: 20%;
- display:block;
+ display:inline;
 }
 
 a:hover { background-color: yellow;
@@ -20,44 +20,44 @@ img:hover {
 }
 
 div {
-    float: center;
+    float: left;
 }
 
 #section {
     font-size: 3em;
-    display: block;
+    display: inline;
 }
 
 #em-unit {
-    float: center;
-    background-color:#ff6a5e;
-    text-align: center;
+    float: left;
+    background-color:grey;
+    text-align: left;
     /*width: 10em;*/
     width: 100%;
-    height: 70px;
+    height: 80px;
 }
 
 #pixel-unit {
-    background-color: #c05eff;
-    float: center;
+    background-color: black;
+    float: left;
     /*width: 200px;*/
     width: 100%;
-    height: 50px;
+    height: 80px;
 
 }
 
 header {
-    float: center;
+    float: left;
 }
 
 h1 {
-    color: Cyan;
+    color: Red;
     font-size: 1em;
 }
 
 h2 {
     font-size: 1em;
-    color: pink;
+    color: Grey;
 }
 
 h3 {
@@ -65,9 +65,9 @@ h3 {
 }
 
  p {
-    vertical-align: center;
-    text-align: center;
-    color: yellow;
+    vertical-align: left;
+    text-align: left;
+    color: lavender;
     font-size: 14px;
     margin: 2em;
     padding: 1em;
@@ -88,17 +88,17 @@ hr {
 
 ul {
     display:block;
-    float:center;
+    float:left;
 }
 
 li {
     font-size: 1em;
     display: block;
-    color: green;
+    color: GREY;
 }
 
 #about {
-float:center;
+float:left;
 display: inline;
 text-decoration: bold;
 }
@@ -110,10 +110,10 @@ text-decoration: bold;
 footer {
     font-size: .1em;
     display:block;
-    float: center;
+    float: left;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 768px) {
   div {
     margin: 0 1em 1em 0;
-{ float: center; width: auto; } }
+{ float: left; width: auto; } }
