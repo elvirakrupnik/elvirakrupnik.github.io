@@ -1,5 +1,5 @@
 body {
-    text-align: center;
+    text-align: Left;
     background-color: black;
     font-size: 25px;
     font-family: 'comfortaa', serif;
@@ -20,36 +20,34 @@ img:hover {
 }
 
 div {
-    float: center;
+    float: left;
 }
 
 #section {
-    font-size: 5em;
+    font-size: 3em;
     display: inline;
 }
 
 #em-unit {
     float: left;
-    border-style: dotted;
-    text-align: center;
+    background-color:grey;
+    text-align: left;
     /*width: 10em;*/
-    width: 30%;
+    width: 100%;
     height: 80px;
 }
 
 #pixel-unit {
-    text-align: center;
-    border-style: dotted;
+    background-color: black;
     float: left;
-    margin: .5em;
     /*width: 200px;*/
-    width: 30%;
+    width: 100%;
     height: 80px;
 
 }
 
 header {
-    float: center;
+    float: left;
 }
 
 h1 {
@@ -59,7 +57,7 @@ h1 {
 
 h2 {
     font-size: 1em;
-    color: lavender;
+    color: Grey;
 }
 
 h3 {
@@ -69,7 +67,7 @@ h3 {
  p {
     vertical-align: left;
     text-align: left;
-    color: red;
+    color: lavender;
     font-size: 14px;
     margin: 2em;
     padding: 1em;
@@ -100,8 +98,8 @@ li {
 }
 
 #about {
-float:center;
-display: inline-block;
+float:left;
+display: inline;
 text-decoration: bold;
 }
 
